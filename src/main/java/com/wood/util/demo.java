@@ -14,6 +14,6 @@ public class demo {
         System.out.println("hot-fix change");
         System.out.println("insert xxx");
         System.out.println("push");
-        System.out.println("push 失败");
+        System.out.println("pull");
     }
 }

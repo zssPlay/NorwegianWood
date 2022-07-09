@@ -11,5 +11,7 @@ public class demo {
         System.out.println("second commit");
         System.out.println("hot-fix first commit");
         System.out.println("master change");
+        System.out.println("hot-fix change");
+        System.out.println("insert xxx");
     }
 }

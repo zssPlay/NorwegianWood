@@ -10,5 +10,6 @@ public class demo {
         System.out.println(map);
         System.out.println("second commit");
         System.out.println("hot-fix first commit");
+        System.out.println("master change");
     }
 }

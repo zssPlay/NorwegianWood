@@ -13,5 +13,6 @@ public class demo {
         System.out.println("master change");
         System.out.println("hot-fix change");
         System.out.println("insert xxx");
+        System.out.println("push");
     }
 }

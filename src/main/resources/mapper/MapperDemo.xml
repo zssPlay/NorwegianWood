@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.wood.mapper.MapperDemo">
-    <select id="demo" resultType="map">
+    <select id="demo" resultType="com.wood.po.UserProfile">
         select * from user_profile
     </select>
 </mapper>

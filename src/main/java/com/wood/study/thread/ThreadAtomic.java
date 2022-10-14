@@ -6,13 +6,14 @@ public class ThreadAtomic {
         ThreadAtomicTask task = new ThreadAtomicTask();
         Thread t1 = new Thread(task);
         t1.start();
-
+        int count = task.count;
+        System.out.println(count);
         //主线程继续执行
-        for (int i = 0; i < 1000; i++) {
+        /*for (int i = 0; i < 1000; i++) {
             task.count++;
         }
         Thread.sleep(5000);
         //最后打印count的值
-        System.out.println(task.count);
+        System.out.println(task.count);*/
     }
 }

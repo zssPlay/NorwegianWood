@@ -1,7 +1,7 @@
 package com.wood.study.thread;
 
-public class ThreadVisible extends Thread {
-    boolean flag = false;
+public class ThreadVisible implements Runnable {
+     boolean flag = false; //volatile关键字要求共享变量发生变化,在所有的线程使用的时候强制更新-->解决可见性问题
     @Override
     public void run() {
         try {

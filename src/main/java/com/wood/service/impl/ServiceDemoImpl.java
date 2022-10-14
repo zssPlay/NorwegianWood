@@ -1,6 +1,7 @@
 package com.wood.service.impl;
 
 import com.wood.mapper.MapperDemo;
+import com.wood.po.UserProfile;
 import com.wood.service.ServiceDemo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,7 @@ public class ServiceDemoImpl implements ServiceDemo {
 
 
     @Override
-    public List<Map> demo() {
+    public List<UserProfile> demo() {
         return mapperDemo.demo();
     }
 }
